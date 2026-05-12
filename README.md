@@ -73,19 +73,20 @@ Removed duplicate entries (if any)
 
 ---
 ## Final Dataset Structure
-Column	Description	Data Type
-athlete_id	Unique identifier for each athlete	Integer
-Name	Athlete's name (cleaned)	String
-Height_cm	Height in centimeters	Integer/Float
-Weight_kg	Weight in kilograms	Integer/Float
-Born date	Date of birth (ISO format)	Datetime
-Born city	City of birth	String
-Born region	Region/state of birth	String
-Born country	Country code of birth (3-letter)	String
-Died date	Date of death (ISO format)	Datetime
-Died city	City of death	String
-Died region	Region/state of death	String
-Died country	Country code of death (3-letter)	String
+| Column | Description | Data Type |
+| ------ | ----------- | --------- |
+| athlete_id | Unique identifier for each athlete | Integer |
+| Name | Athlete's name (cleaned) | String |
+| Height_cm | Height in centimeters | Integer/Float |
+| Weight_kg | Weight in kilograms | Integer/Float |
+| Born date | Date of birth (ISO format) | Datetime |
+| Born city | City of birth | String |
+| Born region | Region/state of birth | String |
+| Born country | Country code of birth (3-letter) | String |
+| Died date | Date of death (ISO format) | Datetime |
+| Died city | City of death | String |
+| Died region | Region/state of death | String |
+| Died country | Country code of death (3-letter) | String |
 
 ---
 ## Files in Repository
@@ -123,13 +124,15 @@ Jupyter Notebook - Interactive development environment
 ## Sample Data (Before vs After)
 Before:
 
-Used name	Born	Measurements
-Jean-François•Blanchy	12 December 1886 in Bordeaux, Gironde (FRA)	NaN
+| Used name | Born | Measurements |
+| --------- | ---- | ------------ |
+| Jean-François•Blanchy | 12 December 1886 in Bordeaux, Gironde (FRA) | NaN |
 
 After:
 
-Name	Born date	Born city	Born region	Born country
-Jean-François Blanchy	1886-12-12	Bordeaux	Gironde	FRA
+| Name | Born date | Born city | Born region | Born country |
+| ---- | --------- | --------- | ----------- | ------------ |
+| Jean-François Blanchy | 1886-12-12 | Bordeaux | Gironde | FRA |
 
 ---
 ## Usage
