@@ -138,11 +138,13 @@ After:
 ## Usage
 To load the cleaned dataset for analysis:
 
+```python
 import pandas as pd
 
 df = pd.read_csv('Cleaned Data.csv')
 df['Born date'] = pd.to_datetime(df['Born date'])
 df['Died date'] = pd.to_datetime(df['Died date'])
+```
 
 ---
 ## 🌟 About Me
