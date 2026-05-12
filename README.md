@@ -54,6 +54,10 @@ The Measurements column originally contained values like:
 
 "120 kg"
 
+"110, 120 kg"
+
+"178, 182 cm"
+
 Transformations applied:
 
 Split into Height_cm and Weight_kg columns
