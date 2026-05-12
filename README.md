@@ -5,7 +5,7 @@ This project involves cleaning and transforming a large dataset of Olympic athle
 
 ---
 ## Dataset Source
-The data was sourced from the Olympics Dataset repository and includes biographical information about athletes who have participated in the Olympic Games.
+The data was sourced from the [Olympics Dataset repository](https://raw.githubusercontent.com/KeithGalli/Olympics-Dataset/refs/heads/master/athletes/bios.csv) and includes biographical information about athletes who have participated in the Olympic Games.
 
 ---
 ## Data Cleaning Process
